@@ -1,6 +1,6 @@
 # Standard Calculator
 
-A basic calculator written in Python that can perform continuous arithmetic operations.
+A basic calculator written in Python that can perform continuous arithmetic operations made with functions.
 
 ## Features
 - Addition
@@ -10,6 +10,7 @@ A basic calculator written in Python that can perform continuous arithmetic oper
 - Division by zero handling
 - Invalid character input handling
 - Continuous calculations
+- Reusable Calculator Function
 
 ## Concepts Used
 - Variables
@@ -17,6 +18,7 @@ A basic calculator written in Python that can perform continuous arithmetic oper
 - Conditionals
 - Looping statements
 - Exception handling
+- Uses Functions
 
 ## Run
 
