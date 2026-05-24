@@ -1,7 +1,7 @@
 #Standard Calculator 
 def calculate(value1, value2, operator):
 
-    #Conditions which checks string value
+    #Conditions which checks string value 
     if operator == '+':
         return value1 + value2 
     elif operator == '-':
@@ -20,7 +20,7 @@ def calculate(value1, value2, operator):
 def main():
 
     choice = 'y'
-    while choice.lower() != 'n':
+    while choice.lower() != 'n': 
         try:
             #Receives Input of operands and operator
             value1 = float(input("\nEnter first number:"))
@@ -30,11 +30,11 @@ def main():
             print("Input valid values")
         else:
             operator = input("Choose operation: +,-,*,/") 
-            result = calculate(value1,value2,operator)
-            if result is not None:
+            result = calculate(value1,value2,operator) #Function that calculates the result
+            if result is not None: #Handles no result scenario
                 print("Result:", result)
         choice = input("\nDo you want to Continue: y/n")
-        while choice.lower() not in ["n", "y"]:
+        while choice.lower() not in ["n", "y"]: #Handles Invalid choice input
             print("Invalid choice entry")
             choice = input("\nDo you want to Continue: y/n")
 
