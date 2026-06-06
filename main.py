@@ -33,10 +33,10 @@ def main():
             result = calculate(value1,value2,operator) # Function that calculates the result
             if result is not None: # Handles no result scenario
                 print("Result:", result)
-        choice = input("\nDo you want to Continue: y/n")
+        choice = input("\nDo you want to Continue (y/n): ")
         while choice.lower() not in ["n", "y"]: # Handles Invalid choice input
             print("Invalid choice entry")
-            choice = input("\nDo you want to Continue: y/n")
+            choice = input("\nDo you want to Continue (y/n): ")
 
 main()
         
